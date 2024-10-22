@@ -2,18 +2,23 @@
 // Set their values to a random number between 2-11
 
 let firstCard = 10
-let secondCard = 5
+let secondCard = 10
 let sum = firstCard + secondCard 
+let hasBlackJack = false
+let isAlive = true
 
-if(sum < 20 || sum === 20){
+if(sum <= 20){
    console.log("Do you want to draw a new card?☺️")
 }else if(sum === 21){
    console.log("BLACKJACK!")
+   hasBlackJack = true
 }else{
    console.log("Damn you're out 🥹")
+   isAlive = false
 }
 
-
+console.log(hasBlackJack)
+console.log(isAlive)
 
 
 
