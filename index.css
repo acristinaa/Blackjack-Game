@@ -1,0 +1,36 @@
+body{
+    background-image: url(Poker\ table.jpeg);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1{
+    color: goldenrod;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rebeccapurple;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+}
