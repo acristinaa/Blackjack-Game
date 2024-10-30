@@ -23,6 +23,10 @@ function startGame(){
    messageEl.textContent = message
 }
 
+function runnewCard(){
+   console.log("Drawing a new card!")
+}
+
 
 // CHALLENGES
 // Check if the person is eligible for a Birthday card from the King! (100)
