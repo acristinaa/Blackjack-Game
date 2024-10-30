@@ -17,14 +17,17 @@ function startGame(){
       message = "BLACKJACK!"
       hasBlackJack = true
    }else{
-      message = "Damn you're out 🥹"
+      message = "Damn, you're out 🥹"
       isAlive = false
    }
    messageEl.textContent = message
 }
 
-function runnewCard(){
+function newCard(){
    console.log("Drawing a new card!")
+   let card = 7
+   sum += card
+   startGame()
 }
 
 
