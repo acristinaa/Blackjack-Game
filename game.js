@@ -35,7 +35,7 @@ function renderGame(){
    messageEl.textContent = message
 }
 
-function newCard(){
+//function newCard(){
    let card = getRandomCard()
    sum += card
    cards.push(card)
